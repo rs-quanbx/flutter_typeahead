@@ -1226,10 +1226,10 @@ class _SuggestionsListState<T> extends State<_SuggestionsList<T>>
         : Padding(
             padding: const EdgeInsets.symmetric(vertical: 8.0),
             child: Text(
-              'No Items Found!',
+              'do not have',
               textAlign: TextAlign.center,
               style: TextStyle(
-                  color: Theme.of(context).disabledColor, fontSize: 18.0),
+                  color: Colors.red, fontSize: 18.0),
             ),
           );
   }
