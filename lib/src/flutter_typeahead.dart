@@ -1226,7 +1226,7 @@ class _SuggestionsListState<T> extends State<_SuggestionsList<T>>
         : Padding(
             padding: const EdgeInsets.symmetric(vertical: 8.0),
             child: Text(
-              'do not have slala',
+              'slala',
               textAlign: TextAlign.center,
               style: TextStyle(
                   color: Colors.red, fontSize: 18.0),
