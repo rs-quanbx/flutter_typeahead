@@ -1223,10 +1223,11 @@ class _SuggestionsListState<T> extends State<_SuggestionsList<T>>
   Widget createNoItemsFoundWidget() {
     return widget.noItemsFoundBuilder != null
         ? widget.noItemsFoundBuilder!(context)
-        : Padding(
+        : Container(
+          color : Colors.red
             padding: const EdgeInsets.symmetric(vertical: 8.0),
             child: Text(
-              'đi chơi nè',
+              'Do not have ',
               textAlign: TextAlign.center,
               style: TextStyle(
                   color: Colors.red, fontSize: 18.0),
