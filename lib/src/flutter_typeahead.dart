@@ -1224,13 +1224,12 @@ class _SuggestionsListState<T> extends State<_SuggestionsList<T>>
     return widget.noItemsFoundBuilder != null
         ? widget.noItemsFoundBuilder!(context)
         : Container(
-          color : Colors.red
             padding: const EdgeInsets.symmetric(vertical: 8.0),
             child: Text(
-              'Do not have ',
+              'Quan dep trai',
               textAlign: TextAlign.center,
               style: TextStyle(
-                  color: Colors.red, fontSize: 18.0),
+                  color: Colors.green, fontSize: 18.0),
             ),
           );
   }
