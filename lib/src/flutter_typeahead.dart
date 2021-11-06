@@ -1226,7 +1226,7 @@ class _SuggestionsListState<T> extends State<_SuggestionsList<T>>
         : Container(
             padding: const EdgeInsets.symmetric(vertical: 8.0),
             child: Text(
-              'Quan dep trai',
+              'Quân đẹp trai',
               textAlign: TextAlign.center,
               style: TextStyle(
                   color: Colors.green, fontSize: 18.0),
